@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table,
+      th,
+      td,
+      tr {
+        border: 1px solid blue;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Tables -->
+    <!-- forms + inputs-->
+    <!-- solving assignments (Riyaz) -->
+    <!-- <table >
+        <tr>
+            <th>S No.</th>
+            <th>Name of the product</th>
+            <th>Quantity</th>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Apple macbook m2</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Apple macbook m2</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Apple macbook m2</td>
+            <td>2</td>
+        </tr>
+    </table> -->
+
+    <!-- How to create vertical table header? -->
+    <!-- <table>
+        <caption>Student details</caption>
+        <tbody>
+        <tr>
+            <tr>Age</tr>
+            <td>10</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <tr>Name</tr>
+            <td>Ayush</td>
+            <td>Abhinav</td>
+        </tr>
+        <tr>
+            <tr>Email</tr>
+            <td>ayush@acciojob.com</td>
+            <td>abhinav@amex.com</td>
+        </tr>
+    </tbody>
+    </table>
+    <table >
+        <caption>Grocery Bill</caption>
+        <thead>
+            <tr>
+                <th>Name of the product</th>
+                <th>Price per piece</th>
+                <th>Quantity</th>
+                <th>Total product price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Apple</td>
+                <td>50</td>
+                <td>2</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>Banana</td>
+                <td>10</td>
+                <td>10</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>Orange</td>
+                <td rowspan="2">20</td>
+                <td></td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <td>Kiwi</td>
+               
+                <td>10</td>
+                <td>200</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Total</td>
+                <td colspan="2">460</td>
+            </tr>
+        </tfoot>
+    </table> -->
+    <!-- rowspan and colspan -->
+
+    <!-- <table>
+        <tr>
+            <td>abc</td>
+            <td>abc</td>
+            <td>abc</td>
+            <td>abc</td>
+        </tr>
+        <tr>
+            <td>abc</td>
+            <td rowspan="2" colspan="2">center cell</td>
+            <td>abc</td>
+        </tr>
+        <tr>
+            <td>abc</td>
+            <td>abc</td>
+        </tr>
+        <tr>
+            <td>abc</td>
+            <td>abc</td>
+            <td>abc</td>
+            <td>abc</td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td colspan="6">Time Table</td>
+        </tr>
+        <tr>
+            <td rowspan="6">Hours</td>
+            <td>Mon</td>
+            <td>Mon</td>
+            <td>Mon</td>
+            <td>Mon</td>
+            <td>Mon</td>
+        </tr>
+        <tr>
+            <td>Math</td>
+            <td>Math</td>
+            <td>Math</td>
+            <td>Math</td>
+            <td>Math</td>
+        </tr>
+        <tr>
+            <td colspan="5">lunch</td>
+        </tr>
+        <tr>
+            <td>Math</td>
+            <td>Math</td>
+            <td>Math</td>
+            <td>Math</td>
+            <td>Math</td>
+        </tr>
+        <tr>
+            <td>Math</td>
+            <td>Math</td>
+            <td>Math</td>
+            <td>Math</td>
+            <td>Math</td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td>
+              <table>
+                <tr><td>Ayush</td></tr>
+                <tr><td>Amit</td></tr>
+                <tr><td>Akash</td></tr>
+              </table>
+            </td>
+            <td>
+                <table>
+                    <tr><td>Ayush</td></tr>
+                    <tr><td>Amit</td></tr>
+                    <tr><td>Akash</td></tr>
+                  </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table>
+                    <tr><td>Ayush</td></tr>
+                    <tr><td>Amit</td></tr>
+                    <tr><td>Akash</td></tr>
+                </table>
+            </td>
+            <td>
+                <table>
+                    <tr><td>Ayush</td></tr>
+                    <tr><td>Amit</td></tr>
+                    <tr><td>Akash</td></tr>
+                  </table>
+            </td>
+        </tr> -->
+    <!-- </table> -->
+    <!--Homework: scope attribute -->
+
+    <!-- Forms -->
+    <!-- HTML forms provide a way to collect user input on a web page. 
+        Forms are essential for various interactive features, such as 
+        submitting data, user authentication, and conducting surveys. 
+        They allow users to enter data into input fields, select options, 
+        and interact with buttons. -->
+        <div id="box">
+
+       
+    <form > 
+        <!-- form controls -->
+        <label for="First_name">First Name:*</label>
+        <input type="text" minlength="10" maxlength="100" placeholder="First Name" name="F_name" id="First_name" required>
+        <br>
+        <label for="my_age">Age:</label>
+        <input type="number" min="1" max="100" placeholder="Your current Age" id="my_age" name="age">
+        <br>
+        <label for="password">Password</label>
+        <input type="password" minlength="8" placeholder="password" id="password" name="password">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" placeholder="ayush@acciojob.com" id="email" name="email">
+        <br>
+        <input type="range" min="10" step="10" max="100">
+        <br>
+        <input type="radio" name="gender"> Male
+        <br>
+        <input type="radio" name="gender"> Female
+        <br>
+        <input type="checkbox">
+        <br>
+        <input type="checkbox">
+        <br>
+        <input type="checkbox">
+        <br>
+        <input type="date">
+        <br>
+        <input type="color">
+        <br>
+        <input type="file">
+        <br>
+        <input type="url">
+        <br>
+        <input type="reset">
+        <br>
+        <input type="Submit">
+        <br>
+        <!-- dropdowns -->
+        <ol>
+            <li>Hyderabad</li>
+            <li>bangalore</li>
+            <li>Gurgaon</li>
+            <li>Pune</li>
+        </ol>
+        <label for="first_preference">First preference</label>
+        <select id="first_preference" name="first_preference">
+            <option value="Hyderabad">1</option>
+            <option value="bangalore">2</option>
+            <option value="Gurgaon">3</option>
+            <option value="Pune">4</option>
+        </select>
+        <h2>Second preference</h2>
+        <select name="second_preference">
+            <option value="Hyderabad">1</option>
+            <option value="bangalore">2</option>
+            <option value="Gurgaon">3</option>
+            <option value="Pune">4</option>
+        </select>
+        <h2>Third preference</h2>
+        <select name="third_preference">
+            <option value="Hyderabad">1</option>
+            <option value="bangalore">2</option>
+            <option value="Gurgaon">3</option>
+            <option value="Pune">4</option>
+        </select>
+        <label for="summary">Summary</label>
+        <textarea id="summary" rows="4" placeholder="Write your 60 words summary statement here.."></textarea>
+
+        <button type="reset">Submit</button>
+    </form>
+    <!-- labels -->
+</div>
+  </body>
+</html>

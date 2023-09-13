@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- 
+        1. (Done) Span tag and difference between span and div tag
+        2. (Done) Block and inline elements
+        3. (Done) Rest of the common tags
+        4. (done) What is attributes?
+        5. (done) paths in HTML
+        6. (Done) Semantic vs non-semantic 
+        7. Starting our assignments (Ajay Kumar) github.com
+     -->
+    <!-- Div (division) tag -->
+    <!-- It is used to group elements 
+        together. It is a block level element. 
+        It occupies full width.
+        It is used to structure our page. -->
+    <div style="background-color: blue; width: 400px">
+      This is my div element
+    </div>
+    <span style="background-color: red; width: 400px">This is my span</span>
+
+    <!-- Block elements 
+    1. They don't come in same line.
+    2. They occupy 100% width of page
+    3. It respect any width and height given by dev.
+    Example: 
+    div, h1->h6, p, ol,ul, table (non-semantic)
+    article, sections, aside,nav,main,footer (semantic)
+    -->
+
+    <!-- Inline Elements 
+    1. They come in same line if there is space.
+    2. THey occupy only needed amount of width.
+    3. It does not respect any width and height given by dev.
+    Examples: span, <a>, bold, underline, italic, big, small, sub, sup, strike, image tag
+    -->
+
+    <!-- Question will they come in same line /different -->
+    <!-- Block and inline elements -->
+    <h1 style="width: 400px">
+      Ignite Your <span style="color: blue">Tech Career</span> Today: Learn,
+      Grow, and Get Placed
+    </h1>
+    <span
+      >hEllo wmy name is ayush bansal. I study at AccioJob. I am also an
+      instructor</span
+    >
+    <span
+      >hEllo wmy name is ayush bansal. I study at AccioJob. I am also an
+      instructor</span
+    >
+    <!-- Examples -->
+
+    <!-- Image Tag -->
+
+    <!--Syntax: <img src=""> -->
+    <!-- <img src="https://images.unsplash.com/photo-1693956089429-e2394b22071e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2936&q=80"> -->
+    <!-- More attributes with img will be discussed in 20 mins -->
+    <!-- Semantic v/s non-semantic tags -->
+
+    <!-- Semantic tags: This simply will provide meaning to our structure
+    helping both the browser and developer understand it's significance.
+    Semantic tags also help us increase SEO.-->
+    <header>
+      <h1>Title of our page</h1>
+      <nav>
+        <a href="#footer">Footer</a>
+      </nav>
+    </header>
+    <main>
+      <!-- It will represent the main content -->
+      <section></section>
+      <section></section>
+      <section></section>
+    </main>
+    <footer>
+      <!-- Whatever content is added here is footer of our webpage -->
+    </footer>
+
+    <!-- What is attributes? -->
+    <!-- It is just an additional information -->
+    <!-- It may/may not modify the behaviour/appearence of the element -->
+    <!-- Image and it's attribute -->
+    <img
+      src="https://images.unsplash.com/photo-1693956089429-e2394b22071e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2936&q=80"
+      alt="image of a hill"
+      width="400px"
+      height="100px"
+    />
+    <ul type="circle">
+        <li>dsjnnjds</li>
+        <li>dsjnnjds</li>
+        <li>dsjnnjds</li>
+        <li>dsjnnjds</li>
+    </ul>
+    <!-- class and IDs -->
+    <!-- WHat is an ID? -->
+    <!-- It is a unique identifier -->
+    <!-- 1. It is unique
+    2. It is referred by initiating it using a #id in css 
+-->
+    <div id="projects">hcbhdsb</div>
+
+    <!-- What is a class? -->
+    <!-- charachteristics:
+    1. Not unique
+    2. Multiple classes
+    3. It is referred by initiating it using a .class in css 
+     -->
+    <div class="abc akshay"></div>
+    <div class="abc"></div>
+    <div class="abc red"></div>
+    <div class="abc blue"></div>
+    <div class="abc green pink"></div>
+    <!-- Style attribute -->
+    <div data-ayush="My custom attribue value"  style="background-color: blue;"></div>
+
+    <!-- homework: learn about custom attributes (data-*) -->
+
+    <!-- anchor tag -->
+    <!-- External link/external hyperferencing -->
+    <!-- internal hyperferencing -->
+    <!-- using anchor tag we are creating a clickable link that
+    directs user to a specific locations. It is one of the fundamentals
+    elements for navigation in HTML -->
+    <a href="https://unsplash.com/">
+       unsplash
+    </a>
+
+    <!-- user to direct to a different html page of the same project -->
+    <a href="./abc.html">Contact Us page</a>
+    <!-- to get out of the file use ./ -->
+    <!-- to get out of the foler use ../ -->
+    <br>
+    <a href="../7sep/index.html">Testimonials page</a>
+
+    <!-- internal referencing -->
+    <div id="footer">footer</div>
+  </body>
+</html>
