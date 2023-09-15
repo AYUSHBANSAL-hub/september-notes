@@ -1,0 +1,109 @@
+ /* universal selector */
+*{
+    /* color:blue; */
+    /* this rule will be applied
+    to the elements regardles of it's
+    element type */
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* usecase #1: removing/resetting any default styling */
+    /* usecase #2: applying any global styling */
+}
+/*
+    comment here
+    shortcut: ctrl+/
+*/
+
+
+/* type selector */
+
+h3{
+    color: red;
+}
+h1{
+    color: red;
+    background-color: blue;
+    text-decoration: underline;
+}
+
+
+.john{
+    background-color: bisque;
+    color: red;
+    font-size: 20px;
+    border-radius: 10px;
+    height: 300px;
+    margin: 20px;
+}
+
+.red{
+    background-color: red;
+}
+
+#flag{
+    width: 500px;
+    border-radius: 40px;
+    background-color: hotpink;
+}
+.green{
+    background-color: green;
+}
+
+.my-contact{
+    background-color: blue;
+    height: 100px;
+}
+
+/* combinator selectors */
+
+/* 1.descendent combinator */
+
+/* .my-contact p{
+    color: hotpink;
+} */
+
+/* 2. child combinator */
+
+.my-contact>p{
+    color: hotpink;
+}
+.my-contact>div>p{
+    color: yellow;
+}
+
+
+#my-btn,#my-btn2{
+    border: none;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
+
+/* pseudo class selector */
+#my-btn:hover{
+    background-color: red;
+}
+#my-btn:active{
+    background-color: green;
+}
+
+#my-btn a:visited{
+    color: hotpink;
+}
+#my-btn a:hover{
+    color: white;
+}
+#my-btn2 a:visited{
+    color: yellow;
+}
+
+#my-list>li:nth-child(odd){
+    color: green;
+}
+#my-list>li:nth-child(even){
+    color: red;
+}
+
+p:not(.special){
+    background-color: blueviolet;
+}
