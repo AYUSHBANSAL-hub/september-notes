@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#eg1{
+    display: inline;
+    height: 100px;
+    width: 300px;
+    background-color: blue;
+}
+
+#eg2{
+    display: inline-block;
+    height: 100px;
+    width: 300px;
+    font-size: 30px;
+    background-color: red;
+}
+
+#burger-menu{
+    display: none;
+}

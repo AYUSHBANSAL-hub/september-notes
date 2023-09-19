@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+#heading-1{
+    /* 1.color */
+    color: #2e80ec;
+}
+
+#p-1{
+    color: green;
+    text-align: justify;
+}
+#p-2{
+    color: green;
+    text-align: center;
+}
+
+#eg1{
+    text-decoration: underline;
+}
+#eg2{
+    text-decoration: line-through;
+}
+#eg3{
+    text-decoration: overline;
+}
+
+#eg4{
+    text-decoration: none;
+}
+
+#eg5{
+    text-transform: uppercase;
+}
+#eg6{
+    text-transform: lowercase;
+}
+#eg7{
+    text-transform: capitalize;
+}
+
+#eg8{
+    color: white;
+    line-height: 1;
+    text-shadow: 0px 0px 5px #8322b9;
+}
+
+#eg9{
+    font-weight: 100;
+    font-size: 1mm;
+}
+#eg10{
+    font-weight: bold;
+}
+#eg11{
+    font-weight: 600;
+}
+#eg12{
+    font-weight: 900;
+}
+
+/* 
+  Fonts:
+    1. inter
+    2. Poppins
+*/
+
+#eg13{
+    width: 50%;
+    height: 50%;
+    background-color: blue;
+}
+#box-2{
+    background-color: red;
+    width: 400px;
+    height: 400px;
+    margin: 10px 40px 100px 150px;
+    /* margin: top right bottom left */
+    margin: 20px 50px;
+    /* margin: y x */
+    margin: 50px;
+    /* margin: every_direction */
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    /* padding */
+    padding: 10px 40px 100px 150px ;
+    /* padding: top right bottom left */
+    padding: 50px 100px;
+    /* padding: y x */
+    padding:100px
+    /* padding: every_direction */
+}
+
+#box-3{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+#box-4{
+    padding: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 20px double blue;
+    /* total_width/height: 200+50+50+20+20=340 */
+    border-radius: 50%;
+}
+
+#box-5{
+    width: 200px;
+    padding: 50px;
+    height: 200px;
+    background-color: green;
+    border-width: 20px;
+    border-color: blue;
+    border-style: solid;
+    box-sizing:border-box;
+}
