@@ -1,0 +1,152 @@
+#eg1{
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+    position: sticky;
+    top: 300px;
+}
+
+#whatsapp-icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #3fc250;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+}
+
+#nav{
+    background-color: black;
+    color: white;
+    display: block;
+    width: 100%;
+    font-size: 30px;
+    box-sizing: border-box;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: sticky;
+    top: 0px;
+    z-index: 0;
+
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    border: 5px solid blue;
+    position:sticky;
+    top: 0px;
+}
+
+#red{
+    background-color: red;
+}
+#green{
+    background-color: green;
+}
+#blue{
+    background-color: blue;
+}
+#orange{
+    background-color: orange;
+} 
+
+/* 
+
+#box-1{
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+}
+#box-2{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+#box-3{
+    width: 400px;
+    height: 400px;
+    background-color: pink;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+#box-4{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+#box-5{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#box-6{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    background-color: blue;
+    height: 500px;
+    width: 500px;
+    z-index: 6;
+}
+#box-7{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    background-color: red;
+    height: 400px;
+    width: 400px;
+}
+#box-8{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    background-color: pink;
+    height: 300px;
+    width: 300px;
+    z-index: 5;
+}
+#box-9{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    background-color: orangered;
+    height: 200px;
+    width: 200px;
+}*/
+
+#box-10{
+    width: 400px;
+    height: 300px;
+    background-color: aquamarine;
+    /* overflow: hidden; */
+    /* whatever content that overflows the container
+     is clipped or basically is not visible */
+    /* overflow: visible; */
+    /* it is the default value, it will allow the contetn to overflow the container
+    without any scrollbars */
+    /* overflow: scroll; */
+    /* scrollbars(both horizontal and vertical) are added to the container
+    allowing used to scroll to see the hidden content */
+    /* overflow:clip ; */
+    /* clip is similar to hidden just that 
+    it make sure it does not provide scrollbars 
+    in any browser */
+}
+
+#box-11{
+    width: 800px;
+}
