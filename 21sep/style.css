@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#grid-1{
+    background-color: gray;
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    /* 1.fixed sized columns */
+    /* grid-template-columns: 200px 100px 50px 10px 200px 300px; */
+    /* 2. percentage */
+    /* grid-template-columns: 10% 20% 50% 10%; */
+    /* 3. fractional */
+    /* grid-template-columns: 1fr 4fr 3fr 1fr 1fr 1fr 1fr 1fr 1fr; */
+    /* 4. auto */
+    /* grid-template-columns: 100px auto auto; */
+    /* 5. minmax() */
+    /* grid-template-columns: 100px 100px repeat(2,1fr) repeat(2,2fr); */
+    /* 1.fixed sized rows */
+    /* grid-template-rows: 100px 100px 50px; */
+     /* 2. percentage */
+     /* grid-template-rows: 10% 70% 20%; */
+     /* 3. fractional */
+    grid-template-columns: 1fr 10fr 4fr;
+    grid-template-rows:1fr 8fr 1fr;
+    grid-template-areas: 
+    "h h h"
+    "m c s"
+    "f f f";
+    gap: 10px;
+}
+#sidebar{
+    grid-area: s;
+    background-color: chocolate;
+}
+#a{
+    grid-area: h;
+    background-color: blue;
+}
+#b{
+    grid-area: m;
+    background-color: red;
+}
+#c{
+    grid-area: c;
+    background-color: yellow;
+    overflow: scroll;
+}
+#d{
+    grid-area: f;
+    background-color: green;
+}
